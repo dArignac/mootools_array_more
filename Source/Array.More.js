@@ -9,7 +9,7 @@ authors:
 
 requires:
 - core/1.3.1:Array
-
+...
 */
 Array.implement({
 	
