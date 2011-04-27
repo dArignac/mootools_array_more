@@ -5,8 +5,11 @@ Provides additional functions on arrays.
 Currently available functions are:
 
 intersect(array): creates an intersection of the current array and the given one.
+
 differentiate(array): returns the symmetric difference between this array and the given one.
+
 getRange(int, int): Returns the given number of elements from the array starting at the given index.
+
 
 How to use
 ----------
