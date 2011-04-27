@@ -24,7 +24,7 @@ Then use them:
 	a.intersect(b);
 	// returns [4, 5]
 	
-	a.differntiate(b);
+	a.differentiate(b);
 	// returns [1, 2, 3, 6, 7, 8]
 	
 	a.getRange(2, 3);

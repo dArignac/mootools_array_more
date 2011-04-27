@@ -9,6 +9,11 @@ authors:
 
 requires:
 - core/1.3.1:Array
+
+provides:
+- Array.intersect
+- Array.differentiate
+- Array.getRange
 ...
 */
 Array.implement({
