@@ -8,7 +8,7 @@ authors:
 - Alexander Herrmann
 
 requires:
-- core/1.3.1:Array
+  core/1.3.1: [Array]
 
 provides:
 - Array.intersect
