@@ -8,7 +8,7 @@ intersect(array): creates an intersection of the current array and the given one
 
 differentiate(array): returns the symmetric difference between this array and the given one.
 
-getRange(int, int): Returns the given number of elements from the array starting at the given index.
+getRange(int, int): Returns the given number of elements from the array starting at the given index. If the second parameter is not defined, all elements until the end of the array will be returned.
 
 
 How to use
@@ -28,4 +28,7 @@ Then use them:
 	// returns [1, 2, 3, 6, 7, 8]
 	
 	a.getRange(2, 3);
-	// return [3, 4, 5]
+	// returns [3, 4, 5]
+	
+	a.getRange(3);
+	// returns [4, 5]

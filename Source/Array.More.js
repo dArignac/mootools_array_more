@@ -58,13 +58,17 @@ Array.implement({
 	 * Returns the given number of elements from the array starting 
 	 * at the given index.
 	 * @param int start index
-	 * @param int number of elements to return
+	 * @param int number of elements to return - if not given all elements from start index will be returned
 	 * @return Array
 	 */
 	getRange: function(start, elements) {
 		var res = [];
 		var j = 0;
-		var upper = start + elements > this.length ? this.length : start + elements;
+		// check if no element count is given
+		var upper = this.length;
+		if (undefined != elements) {
+			var upper = start + elements > this.length ? this.length : start + elements;
+		}
 		if (start >= 0) {
 			for (var i = start; i < upper; i++) {
 				res[j++] = this[i];
