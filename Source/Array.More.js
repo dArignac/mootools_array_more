@@ -1,6 +1,6 @@
 /*
 ---
-description: Additional functions for the Array class
+description: Additional methods for the Array class
 
 license: MIT-style
 
@@ -8,12 +8,13 @@ authors:
 - Alexander Herrmann
 
 requires:
-  core/1.3.1: [Array]
+  core/1.3.2: [Array]
 
 provides:
 - Array.intersect
 - Array.differentiate
 - Array.getRange
+- Array.reverse()
 ...
 */
 Array.implement({
