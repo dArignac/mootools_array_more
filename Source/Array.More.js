@@ -75,6 +75,17 @@ Array.implement({
 			}
 		}
 		return res;
+	},
+	
+	/**
+	 * Returns the array as array in reverse order.
+	 * @return Array
+	 */
+	reverse: function() {
+		var reversed = [];
+		for (var i = this.length - 1; i >= 0; i--) {
+			reversed.push(this[i]);
+		}
+		return reversed;
 	}
-
 });
