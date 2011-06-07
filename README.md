@@ -10,6 +10,8 @@ differentiate(array): returns the symmetric difference between this array and th
 
 getRange(int, int): Returns the given number of elements from the array starting at the given index. If the second parameter is not defined, all elements until the end of the array will be returned.
 
+reverse(): Reverses the elements within the array and returns as an array.
+
 
 How to use
 ----------
@@ -32,3 +34,6 @@ Then use them:
 	
 	a.getRange(3);
 	// returns [4, 5]
+	
+	a.reverse();
+	// return [5, 4, 3, 2, 1]
